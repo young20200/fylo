@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1c2230;
+    width: 100%;
+    height: 170px;  
+}
+nav{
+    float: right; 
+    
+    margin: -60px 50px 0px 0px;
+}
+ul{
+    display: flex;
+   
+}
+li{
+    margin: 30px;
+    list-style-type: none;
+    color: white;
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.section1{
+    background-color: #1c2230;
+    width: 100%;
+    height: 1050px;
+   
+}
+.img-a{
+    position: relative;
+    left: 300px;
+}
+
+.img-b{
+    position: relative;
+    top:80px;
+    width: 100%;
+    z-index: 1;
+}
+.text{
+   position: relative;
+   top: -400px;
+   text-align: center;
+   z-index: 1;
+   
+}
+.text-f{
+    color: #4c8689;
+    font-size: 20px;
+}
+.text1{
+    font-size: 45px;
+    color: white;
+    
+}
+.text2{
+    font-size: 23px;
+    margin-top: 20px;
+    color: white;
+    
+}
+.text3{
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #3fb0cd;
+
+}
+.section2{
+    display: flex;
+    justify-content: space-around;   
+    
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+    
+}
+.sec-text1{
+    text-align: center;
+    z-index: 2;
+}
+.newsection{
+    background-color:  #181e2a;
+    width: 100%;
+    height: 450px;
+    color: white;
+    margin-top: -55px;
+    
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sec-4{
+    background-color: #181e2a;
+    width: 100%;
+    height: 600px;
+}
+.text-b{
+    font-size: 50px;
+}
+.text-c, .text-d{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text-e{
+ margin-top: 200px;
+ color: white;
+}
+.text-a{
+    margin-top: 80px;
+}
+.text-f{
+    margin-top: 20px;
+}
+.section5{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #181e2a ;
+    height: 600px;
+    width: 100%;
+}
+.sec-text0, .sec-text6, .sec-text11{
+    text-align: left;
+    background-color: #21293c;
+    color: white;
+    height: 200px;
+    width: 350px;
+    box-shadow: 0px 2px 2px 2px #191f2b ;
+}
+.sec-text2, .sec-text7, .sec-text12{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.sec-text3, .sec-text8, .sec-text13{
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.o-text1, .o-text2, .o-text3{
+    position: relative;
+    left: 90px;
+    top: -50px;
+}
+.sec-text0{
+    position: relative;
+    left: 40px;
+    z-index: 3;
+
+  
+}
+.sec-text6{
+    position: relative;
+    left: -70px;
+}
+.sec-text11{
+    position: relative;
+    left: -70px;
+}
+.section6{
+    background-color: #181e2a;
+    width: 1000px;
+    text-align: center;
+    box-shadow: 0px 1px 1px 1px  gray;
+    height: 300px;
+    margin-left: 200px;
+    position: relative;
+    top: -180px;
+    border-radius: 15px;
+}
+.sec6-text1{
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+    color: white;
+    
+}
+
+
+.sec6-text2{
+    font-size: 20px;
+    margin-top: 60px;
+    color: white;
+}
+.sec6-text3{
+    width: 500px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    
+}
+.sec6-text4{
+    height: 55px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #3eb1d1;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 1px 1px 1px gray;
+    
+}
+.section7{
+    margin-top: -300px;
+    background-color: #0c1524;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-1, .section-2, .section-3 {
+    flex-direction: column;
+    margin-top: 280px;
+    margin-left: -120px;
+    font-size: 18px;
+    color: white;
+}
+
+.sec7-2{
+    margin-top: 230px;
+}
+.sec7-1{
+    line-height: 25px;
+}
+.sec7-4, .sec7-0, .sec7-14{
+    line-height: 40px;
+}
+.sec7-3{
+    margin-left: 40px;
+    color: white;
+    font-size: 17px;
+}
+.sec7-0{
+    position: relative;
+    left: 20px;
+}
+.fa-map-marker{
+    position: relative;
+    right: 450px;
+    top: -108px;
+}
+.fa-envelope-o{
+    position: relative;
+    right: 30px;
+    top: -50px;
+}
+.fa-address-book{
+    position: relative;
+    right: 30px;
+    top: -70px;
+}
+.quotes{
+    position: relative;
+   left: -380px;
+   z-index: 2;
+   top: -35px;
+}
+
+    
+
+
+
+
